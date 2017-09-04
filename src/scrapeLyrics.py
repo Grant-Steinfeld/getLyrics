@@ -12,10 +12,11 @@ def getPageData(url):
 
 
 def getTitle(soup):
-    return soup.find('h1', class_='page-title').text
+    return soup.find('h1', class_='page-title').text.encode('utf-8').strip()
+
 
 def getLyrics(soup):
-    return soup.find('div', {'class':'content-text-inner'}).text
+    return soup.find('div', {'class':'content-text-inner'}).text.encode('utf-8').strip()
 
 
 def writeToFile(artist, url, counter):
@@ -61,6 +62,7 @@ def parseArtist(artists):
 
 if __name__ == '__main__':
     artists=['pink_floyd']
+    artists=['michael_jackson']
     parseArtist(artists)
 
 
