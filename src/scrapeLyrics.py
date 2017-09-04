@@ -20,7 +20,7 @@ def getLyrics(soup):
 
 def writeToFile(artist, url, counter):
     title, lyrics = getPageData(url)
-    pathToCorpus = './../corpus/{}/'.format(artist)
+    pathToCorpus = './../corpi/{}/raw/'.format(artist)
 
     import os.path
     if not os.path.exists(pathToCorpus):
@@ -38,6 +38,8 @@ def writeToFile(artist, url, counter):
         theFile.write( '\n' )
         theFile.write( '\n' )
         theFile.write( '.' )
+        theFile.write( '\n' )
+        theFile.write( '\n' )
 
 
 def parseArtist(artists):
@@ -53,9 +55,8 @@ def parseArtist(artists):
         for line in lines:
             counter = counter + 1
             writeToFile(artist , line, counter)
+            print counter
 
-            if counter == 1:
-                break
 
 
 if __name__ == '__main__':
