@@ -1,0 +1,587 @@
+// sentiment
+// term(enriched_text.entities.text).[average(enriched_text.entities.sentiment.score),min(enriched_text.entities.sentiment.score),max(enriched_text.entities.sentiment.score)]
+
+
+{
+	"matching_results": 1,
+	"aggregations": [
+		{
+			"type": "term",
+			"field": "enriched_text.entities.text",
+			"results": [
+				{
+					"key": "Aahh",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Better Place",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Fashioned",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Hee",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Hee Hee",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Maria Maria",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Michael] Hee",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Morphine",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Na Na",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				},
+				{
+					"key": "Na Na Na",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.008521875000000005
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.786682
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.718433
+						}
+					]
+				}
+			]
+		}
+	],
+	"results": [
+		{
+			"id": "dd4fb19fcb272442856b0e8ef5fb466c",
+			"score": 1,
+			"extracted_metadata": {
+				"publicationdate": "2017-09-04",
+				"sha1": "4d07a53c234ea7762ab377292466d6b19e5d93f7",
+				"author": "Grant Steinfeld",
+				"filename": "michael_jackson.corpus.docx20170904-36-19zlylf.docx",
+				"file_type": "word",
+				"title": "no title"
+			},
+			"html": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?><html>\n<head>\n    <meta content=\"text/html; charset=UTF-8\" http-equiv=\"Content-Type\"/>\n\n<style type=\"text/css\">/**//**/</style>\n<meta content=\"Grant Steinfeld\" name=\"author\"/>\n<meta content=\"2017-09-04\" name=\"publicationdate\"/>\n\n<title>no title</title></head>\n<body class=\"b1\">\n\n<div id=\"content\">\n<p dir=\"ltr\">title=(I Like) The Way You Love Me\n\n[Verse 1:]\nI was alone in the dark when I met ya\nOOOOOoooooo\nYou took my hand and you told me you loved me\nOOOOOoooooo\nI was alone, there was no love in my life\n(I was alone, there was no love in my life)\nI was afraid of life and you came in time\n(I was afraid of life and you came in time)\nYou took my hand and we kissed in the moonlight\n(You took my hand and we kissed in the moonlight)\nOOOOOoooooo\n[Chorus:]\nI like the way how you're holdin' me\n(It doesn't matter how you're holdin' me)\nI like the way you're lovin me'\n(It doesn't matter how you are lovin' me)\nI like the way how you're touchin' me\n(It doesn't matte...",
+			"text": "no title\n\ntitle=(I Like) The Way You Love Me [Verse 1:] I was alone in the dark when I met ya OOOOOoooooo You took my hand and you told me you loved me OOOOOoooooo I was alone, there was no love in my life (I was alone, there was no love in my life) I was afraid of life and you came in time (I was afraid of life and you came in time) You took my hand and we kissed in the moonlight (You took my hand and we kissed in the moonlight) OOOOOoooooo [Chorus:] I like the way how you're holdin' me (It doesn't matter how you're holdin' me) I like the way you're lovin me' (It doesn't matter how you are lovin' me) I like the way how you're touchin' me (It doesn't matter how you are touchin' me) I like the way how you're kissin' me (It doesn't matter how you are kissin' me) You'll see... [Verse 2:] It won't be long 'til we make vows, I bet ya OOOOOoooooo I thank the heavens above that I met ya OOOOOoooooo I was alone, there was no love in my life (I was alone, there was no love in my life) I was afraid of life and you c...",
+			"enriched_text": {
+				"sentiment": {
+					"document": {
+						"score": 0.162374,
+						"label": "positive"
+					}
+				},
+				"entities": [
+					{
+						"count": 7,
+						"sentiment": {
+							"score": 0.564872
+						},
+						"text": "Michael] Hee",
+						"relevance": 0.747483,
+						"type": "Person"
+					},
+					{
+						"count": 8,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Hee",
+						"relevance": 0.6925,
+						"type": "Person"
+					},
+					{
+						"count": 5,
+						"sentiment": {
+							"score": 0.47671
+						},
+						"text": "Na Na Na",
+						"relevance": 0.635071,
+						"type": "GeographicFeature"
+					},
+					{
+						"count": 7,
+						"sentiment": {
+							"score": 0.689592
+						},
+						"text": "morphine",
+						"relevance": 0.585573,
+						"type": "Drug"
+					},
+					{
+						"count": 5,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Susie Somebody",
+						"relevance": 0.573094,
+						"type": "Person"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Naku Penda",
+						"relevance": 0.525112,
+						"type": "Person"
+					},
+					{
+						"count": 5,
+						"sentiment": {
+							"score": 0.622105
+						},
+						"text": "Morphine",
+						"relevance": 0.516952,
+						"type": "Drug"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0.39842
+						},
+						"text": "Fashioned",
+						"relevance": 0.51277,
+						"type": "Person"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Na Na",
+						"relevance": 0.504098,
+						"type": "GeographicFeature"
+					},
+					{
+						"count": 5,
+						"sentiment": {
+							"score": -0.586591
+						},
+						"text": "Maria Maria",
+						"relevance": 0.500324,
+						"type": "Person"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Stevie",
+						"relevance": 0.495429,
+						"type": "Person"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Better Place",
+						"relevance": 0.486039,
+						"type": "Company",
+						"disambiguation": {
+							"subtype": [
+								"VentureFundedCompany"
+							],
+							"name": "Better Place",
+							"dbpedia_resource": "http://dbpedia.org/resource/Better_Place"
+						}
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Aahh",
+						"relevance": 0.485059,
+						"type": "Person"
+					},
+					{
+						"count": 5,
+						"sentiment": {
+							"score": -0.614975
+						},
+						"text": "Siegfried",
+						"relevance": 0.484981,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.669689
+						},
+						"text": "Patti Austin",
+						"relevance": 0.475287,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"Composer",
+								"MusicalArtist",
+								"AwardWinner",
+								"BroadcastArtist",
+								"Lyricist",
+								"MusicalGroupMember",
+								"RecordProducer",
+								"Songwriter",
+								"TVActor"
+							],
+							"name": "Patti Austin",
+							"dbpedia_resource": "http://dbpedia.org/resource/Patti_Austin"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "carole bayer sager",
+						"relevance": 0.474352,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"Composer",
+								"MusicalArtist",
+								"AwardNominee",
+								"AwardWinner",
+								"Celebrity",
+								"CompanyAdvisor",
+								"FilmMusicContributor",
+								"Lyricist",
+								"Songwriter"
+							],
+							"name": "Carole Bayer Sager",
+							"dbpedia_resource": "http://dbpedia.org/resource/Carole_Bayer_Sager"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.664756
+						},
+						"text": "Wan",
+						"relevance": 0.443496,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.580384
+						},
+						"text": "Hee Hee",
+						"relevance": 0.426975,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.523298
+						},
+						"text": "brian holland",
+						"relevance": 0.374662,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"MusicalArtist",
+								"MusicalGroupMember",
+								"RecordProducer"
+							],
+							"name": "Brian Holland",
+							"dbpedia_resource": "http://dbpedia.org/resource/Brian_Holland"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.786682
+						},
+						"text": "lonelyness Thar",
+						"relevance": 0.342786,
+						"type": "GeographicFeature"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "eddie holland",
+						"relevance": 0.341545,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [],
+							"name": "Eddie Holland",
+							"dbpedia_resource": "http://dbpedia.org/resource/Eddie_Holland"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "lamont dozier",
+						"relevance": 0.325485,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"MusicalArtist",
+								"AwardNominee",
+								"AwardWinner",
+								"BroadcastArtist",
+								"MusicalGroupMember",
+								"RecordProducer",
+								"TVActor"
+							],
+							"name": "Lamont Dozier",
+							"dbpedia_resource": "http://dbpedia.org/resource/Lamont_Dozier"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.718433
+						},
+						"text": "Roy I",
+						"relevance": 0.324395,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "one minute",
+						"relevance": 0.324395,
+						"type": "Quantity"
+					}
+				],
+				"concepts": [
+					{
+						"text": "2008 singles",
+						"relevance": 0.956216,
+						"dbpedia_resource": "http://dbpedia.org/resource/2008_singles"
+					},
+					{
+						"text": "Debut albums",
+						"relevance": 0.838136,
+						"dbpedia_resource": "http://dbpedia.org/resource/Debut_albums"
+					},
+					{
+						"text": "2007 singles",
+						"relevance": 0.801185,
+						"dbpedia_resource": "http://dbpedia.org/resource/2007_singles"
+					},
+					{
+						"text": "2006 singles",
+						"relevance": 0.72988,
+						"dbpedia_resource": "http://dbpedia.org/resource/2006_singles"
+					},
+					{
+						"text": "2009 singles",
+						"relevance": 0.658816,
+						"dbpedia_resource": "http://dbpedia.org/resource/2009_singles"
+					},
+					{
+						"text": "Billboard Hot Country Songs number-one singles",
+						"relevance": 0.569709,
+						"dbpedia_resource": "http://dbpedia.org/resource/Billboard_Hot_Country_Songs_number-one_singles"
+					},
+					{
+						"text": "2005 singles",
+						"relevance": 0.563704,
+						"dbpedia_resource": "http://dbpedia.org/resource/2005_singles"
+					},
+					{
+						"text": "2003 singles",
+						"relevance": 0.527825,
+						"dbpedia_resource": "http://dbpedia.org/resource/2003_singles"
+					}
+				],
+				"categories": [
+					{
+						"score": 0.568998,
+						"label": "/art and entertainment/music"
+					},
+					{
+						"score": 0.497529,
+						"label": "/pets/birds"
+					},
+					{
+						"score": 0.350583,
+						"label": "/society/sex"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,812 @@
+//sentiment
+//term(enriched_text.entities.text).[average(enriched_text.entities.sentiment.score),min(enriched_text.entities.sentiment.score),max(enriched_text.entities.sentiment.score)]
+
+{
+	"matching_results": 1,
+	"aggregations": [
+		{
+			"type": "term",
+			"field": "enriched_text.entities.text",
+			"results": [
+				{
+					"key": "Anzio bridgehead",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Arnold layne",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Bowling",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Bulls",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Clare Torry",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Domine Lime",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Emily",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Generals",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Grimble Grumble",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				},
+				{
+					"key": "Hoooooooooray",
+					"matching_results": 1,
+					"aggregations": [
+						{
+							"type": "average",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.28414384090909117
+						},
+						{
+							"type": "min",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": -0.904017
+						},
+						{
+							"type": "max",
+							"field": "enriched_text.entities.sentiment.score",
+							"value": 0.539607
+						}
+					]
+				}
+			]
+		}
+	],
+	"results": [
+		{
+			"id": "d98b1dc7878aba9f39e37e3d688eca3a",
+			"score": 1,
+			"extracted_metadata": {
+				"publicationdate": "2017-09-04",
+				"sha1": "919aee850793e01a7944d831f5f166bd432af553",
+				"author": "Grant Steinfeld",
+				"filename": "pink_floyd.corpus.docx20170904-31-iesdks.docx",
+				"file_type": "word",
+				"title": "no title"
+			},
+			"html": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?><html>\n<head>\n    <meta content=\"text/html; charset=UTF-8\" http-equiv=\"Content-Type\"/>\n\n<style type=\"text/css\">/**//**/</style>\n<meta content=\"Grant Steinfeld\" name=\"author\"/>\n<meta content=\"2017-09-04\" name=\"publicationdate\"/>\n\n<title>no title</title></head>\n<body class=\"b1\">\n\n<div id=\"content\">\n<p dir=\"ltr\">title=Obscured By Clouds\n\nBridges burning gladly\nMerging with the shadows,\nFlickering between the\nlines.\nStolen moments floating softly on the air,\nBorne on wings of fire\nand climbing higher.\nAncient bonds are breaking,\nMoving on and\nchanging sides.\nDreaming of a new day,\nCast aside the other way.\nMagic visions stirring,\nKindled by and burning flames rise in her eyes.\nThe doorway stands ajar,\nThe walls that once were high.\nBeyond\nthe gilded cage,\nBeyond the reach of ties.\nThe moment is at hand.\nShe breaks the golden band.\n\n\n.\n\ntitle=Another Brick In The Wall (Compliation)\n\nDaddys Flown Across the Ocean\nLeaving Just a Memory\nA Snapshot in the Famil...",
+			"text": "no title\n\ntitle=Obscured By Clouds Bridges burning gladly Merging with the shadows, Flickering between the lines. Stolen moments floating softly on the air, Borne on wings of fire and climbing higher. Ancient bonds are breaking, Moving on and changing sides. Dreaming of a new day, Cast aside the other way. Magic visions stirring, Kindled by and burning flames rise in her eyes. The doorway stands ajar, The walls that once were high. Beyond the gilded cage, Beyond the reach of ties. The moment is at hand. She breaks the golden band. . title=Another Brick In The Wall (Compliation) Daddys Flown Across the Ocean Leaving Just a Memory A Snapshot in the Family Album Daddy what else did you leave for me? Dad What You Leave Behind for me? All and all it was just a brick in the wall all in all it was all just bricks in the wall * Hey!* (Children Speaking) (Helicopters) *You, Yes You, Stand Still Laddie!* When we grew up and went to school, there were certain teachers who would hurt the children anyway they could by ...",
+			"enriched_text": {
+				"sentiment": {
+					"document": {
+						"score": -0.180893,
+						"label": "negative"
+					}
+				},
+				"entities": [
+					{
+						"count": 20,
+						"sentiment": {
+							"score": -0.500489
+						},
+						"text": "Arnold layne",
+						"relevance": 0.714841,
+						"type": "Person"
+					},
+					{
+						"count": 14,
+						"sentiment": {
+							"score": -0.390374
+						},
+						"text": "Swan lee",
+						"relevance": 0.64171,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Layne Arnold layne",
+						"relevance": 0.477134,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.416181
+						},
+						"text": "Roman Meal",
+						"relevance": 0.459688,
+						"type": "Company",
+						"disambiguation": {
+							"subtype": [],
+							"name": "Roman Meal",
+							"dbpedia_resource": "http://dbpedia.org/resource/Roman_Meal"
+						}
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "arnold layne It",
+						"relevance": 0.456106,
+						"type": "Person"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": -0.580006
+						},
+						"text": "Generals",
+						"relevance": 0.439206,
+						"type": "Organization",
+						"disambiguation": {
+							"subtype": [
+								"SportsTeam",
+								"FootballTeam"
+							],
+							"name": "New York Generals",
+							"dbpedia_resource": "http://dbpedia.org/resource/New_York_Generals"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Bulls",
+						"relevance": 0.42513,
+						"type": "Organization"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0.332163
+						},
+						"text": "Roger Waters",
+						"relevance": 0.418346,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"Composer",
+								"MusicalArtist",
+								"Bassist",
+								"BroadcastArtist",
+								"FilmMusicContributor",
+								"Guitarist",
+								"Lyricist",
+								"MusicalGroupMember",
+								"Songwriter",
+								"FilmActor",
+								"FilmWriter"
+							],
+							"name": "Roger Waters",
+							"dbpedia_resource": "http://dbpedia.org/resource/Roger_Waters"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.587622
+						},
+						"text": "burnie",
+						"relevance": 0.414187,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"City"
+							],
+							"name": "Burnie, Tasmania",
+							"dbpedia_resource": "http://dbpedia.org/resource/Burnie,_Tasmania"
+						}
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Richard Wright",
+						"relevance": 0.412483,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"Composer",
+								"MusicalArtist",
+								"BroadcastArtist",
+								"FilmMusicContributor",
+								"Lyricist",
+								"MusicalGroupMember",
+								"Songwriter"
+							],
+							"name": "Richard Wright (musician)",
+							"dbpedia_resource": "http://dbpedia.org/resource/Richard_Wright_(musician)"
+						}
+					},
+					{
+						"count": 4,
+						"sentiment": {
+							"score": -0.572855
+						},
+						"text": "doon",
+						"relevance": 0.410332,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"City"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.727386
+						},
+						"text": "Lee Swan",
+						"relevance": 0.408365,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.583031
+						},
+						"text": "Bowling",
+						"relevance": 0.401216,
+						"type": "Sport",
+						"disambiguation": {
+							"subtype": [],
+							"name": "Bowling",
+							"dbpedia_resource": "http://dbpedia.org/resource/Bowling"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Clare Torry",
+						"relevance": 0.400295,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"MusicalArtist"
+							],
+							"name": "Clare Torry",
+							"dbpedia_resource": "http://dbpedia.org/resource/Clare_Torry"
+						}
+					},
+					{
+						"count": 4,
+						"sentiment": {
+							"score": -0.57451
+						},
+						"text": "Emily",
+						"relevance": 0.397576,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "apple",
+						"relevance": 0.388842,
+						"type": "Company"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "tigers",
+						"relevance": 0.38661,
+						"type": "Organization",
+						"disambiguation": {
+							"subtype": [],
+							"name": "Tigers Militia",
+							"dbpedia_resource": "http://dbpedia.org/resource/Tigers_Militia"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.84878
+						},
+						"text": "Jordan",
+						"relevance": 0.386013,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.47733
+						},
+						"text": "Lo",
+						"relevance": 0.385732,
+						"type": "Person"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Hoooooooooray",
+						"relevance": 0.384101,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"City"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.49938
+						},
+						"text": "southampton dock",
+						"relevance": 0.383063,
+						"type": "Facility"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.562045
+						},
+						"text": "ninetyfive",
+						"relevance": 0.379018,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"City"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.719579
+						},
+						"text": "Underfed Gold",
+						"relevance": 0.378575,
+						"type": "Company"
+					},
+					{
+						"count": 3,
+						"sentiment": {
+							"score": -0.620588
+						},
+						"text": "Vera Lynn",
+						"relevance": 0.378197,
+						"type": "Person",
+						"disambiguation": {
+							"subtype": [
+								"MusicalArtist",
+								"BroadcastArtist",
+								"ChivalricOrderMember",
+								"FilmMusicContributor"
+							],
+							"name": "Vera Lynn",
+							"dbpedia_resource": "http://dbpedia.org/resource/Vera_Lynn"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.656019
+						},
+						"text": "craig marion",
+						"relevance": 0.374361,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "wI",
+						"relevance": 0.373902,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"StateOrCounty"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Royal Fusiliers",
+						"relevance": 0.373362,
+						"type": "Organization",
+						"disambiguation": {
+							"subtype": [
+								"MilitaryUnit",
+								"Rank"
+							],
+							"name": "Royal Fusiliers",
+							"dbpedia_resource": "http://dbpedia.org/resource/Royal_Fusiliers"
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.532532
+						},
+						"text": "Grimble Grumble",
+						"relevance": 0.372737,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.682434
+						},
+						"text": "Oooh Ma",
+						"relevance": 0.372219,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"City"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.320635
+						},
+						"text": "murder",
+						"relevance": 0.371964,
+						"type": "Crime"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Long Silas Lang",
+						"relevance": 0.360473,
+						"type": "Facility"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.455774
+						},
+						"text": "haim",
+						"relevance": 0.358412,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.539607
+						},
+						"text": "commander",
+						"relevance": 0.357434,
+						"type": "JobTitle"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.904017
+						},
+						"text": "skating",
+						"relevance": 0.355896,
+						"type": "Sport"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": -0.561332
+						},
+						"text": "maggie maggie",
+						"relevance": 0.355071,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.612525
+						},
+						"text": "Domine Lime",
+						"relevance": 0.349059,
+						"type": "GeographicFeature"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0.389044
+						},
+						"text": "Steak Bar",
+						"relevance": 0.346116,
+						"type": "Facility"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.516831
+						},
+						"text": "england",
+						"relevance": 0.345154,
+						"type": "Location",
+						"disambiguation": {
+							"subtype": [
+								"Country"
+							]
+						}
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.628572
+						},
+						"text": "Anzio bridgehead",
+						"relevance": 0.343118,
+						"type": "Facility"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": 0.319405
+						},
+						"text": "silas lang",
+						"relevance": 0.341337,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "King George",
+						"relevance": 0.339913,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": 0
+						},
+						"text": "Sitting",
+						"relevance": 0.335235,
+						"type": "Person"
+					},
+					{
+						"count": 2,
+						"sentiment": {
+							"score": -0.634976
+						},
+						"text": "paisley",
+						"relevance": 0.334166,
+						"type": "Person"
+					},
+					{
+						"count": 1,
+						"sentiment": {
+							"score": -0.512675
+						},
+						"text": "gunners",
+						"relevance": 0.323721,
+						"type": "Organization"
+					}
+				],
+				"concepts": [
+					{
+						"text": "Syd Barrett",
+						"relevance": 0.961936,
+						"dbpedia_resource": "http://dbpedia.org/resource/Syd_Barrett"
+					},
+					{
+						"text": "Debut albums",
+						"relevance": 0.600794,
+						"dbpedia_resource": "http://dbpedia.org/resource/Debut_albums"
+					},
+					{
+						"text": "See Emily Play",
+						"relevance": 0.588805,
+						"dbpedia_resource": "http://dbpedia.org/resource/See_Emily_Play"
+					},
+					{
+						"text": "Pink Floyd",
+						"relevance": 0.517093,
+						"dbpedia_resource": "http://dbpedia.org/resource/Pink_Floyd"
+					},
+					{
+						"text": "Richard Wright",
+						"relevance": 0.449786,
+						"dbpedia_resource": "http://dbpedia.org/resource/Richard_Wright_(musician)"
+					},
+					{
+						"text": "The Piper at the Gates of Dawn",
+						"relevance": 0.414099,
+						"dbpedia_resource": "http://dbpedia.org/resource/The_Piper_at_the_Gates_of_Dawn"
+					},
+					{
+						"text": "David Gilmour",
+						"relevance": 0.401662,
+						"dbpedia_resource": "http://dbpedia.org/resource/David_Gilmour"
+					}
+				],
+				"categories": [
+					{
+						"score": 0.536157,
+						"label": "/automotive and vehicles/vehicle brands/land rover"
+					},
+					{
+						"score": 0.387474,
+						"label": "/society/unrest and war"
+					},
+					{
+						"score": 0.385557,
+						"label": "/art and entertainment/music"
+					}
+				]
+			}
+		}
+	]
+}
