@@ -32,7 +32,7 @@ def getArtistMainPages(artists):
 
 
 if __name__ == '__main__':
-    artists=['michael_jackson']
+    artists=['led_zeppelin']
     getArtistMainPages(artists)
 
 
