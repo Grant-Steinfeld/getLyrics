@@ -1,0 +1,188 @@
+{
+ "name": "All-Time",
+ "children": [
+
+   {
+      "name": "2010's",
+      "children": [
+       {
+        "name": "top topics",
+        "children": [
+          {"name": "needs", "size": 200},
+          {"name": "replay", "size": 300},
+          {"name": "wants", "size": 500},
+          {"name": "tonight", "size": 800},
+          {"name": "love", "size": 1000}
+        ]
+       },
+       {
+        "name": "top phrases",
+        "children": [
+         {"name": "I wanna", "size": 3850},
+         {"name": "I can't", "size": 2700},
+         {"name": "I'm gonna", "size": 1820},
+         {"name": "la la la", "size": 1810},
+         {"name": "oh oh oh", "size": 1710}
+        ]
+       }
+      ]
+     },
+
+     {
+        "name": "2000's",
+        "children": [
+         {
+          "name": "top topics",
+          "children": [
+            {"name": "girl (shawty)", "size": 1000},
+            {"name": "goodbye", "size": 2300},
+            {"name": "*EXPLICIT CONTENT*", "size": 3100},
+            {"name": "lifetime", "size": 4500},
+            {"name": "love", "size": 5000}
+          ]
+         },
+         {
+          "name": "top phrases",
+          "children": [
+           {"name": "I can't", "size": 7150},
+           {"name": "I wanna", "size": 6180},
+           {"name": "I ain't", "size": 3560},
+           {"name": "don't wanna", "size": 2980},
+           {"name": "I don't know", "size": 2540}
+          ]
+         }
+        ]
+       },
+
+       {
+          "name": "1990's",
+          "children": [
+           {
+            "name": "top topics",
+            "children": [
+              {"name": "will [do something]", "size": 1000},
+              {"name": "wanna", "size": 2300},
+              {"name": "baby", "size": 3200},
+              {"name": "forever", "size": 4400},
+              {"name": "love", "size": 6000}
+            ]
+           },
+           {
+            "name": "top phrases",
+            "children": [
+             {"name": "I wanna", "size": 6450},
+             {"name": "I can't", "size": 5280},
+             {"name": "I'm gonna", "size": 2370},
+             {"name": "don't wanna", "size": 2100},
+             {"name": "I know I", "size": 2040}
+            ]
+           }
+          ]
+         },
+
+         {
+            "name": "1980's",
+            "children": [
+             {
+              "name": "top topics",
+              "children": [
+                {"name": "gonna wanna", "size": 900},
+                {"name": "don't", "size": 2300},
+                {"name": "tonight", "size": 3100},
+                {"name": "being true", "size": 4200},
+                {"name": "love", "size": 5900}
+              ]
+             },
+             {
+              "name": "top phrases",
+              "children": [
+               {"name": "I can't", "size": 4530},
+               {"name": "I wanna", "size": 3110},
+               {"name": "na na na", "size": 2420},
+               {"name": "oh oh oh", "size": 2260},
+               {"name": "I'm gonna", "size": 2130}
+              ]
+             }
+            ]
+           },
+
+           {
+              "name": "1970's",
+              "children": [
+               {
+                "name": "top topics",
+                "children": [
+                  {"name": "dancing", "size": 1000},
+                  {"name": "falling [in love]", "size": 2300},
+                  {"name": "la's & na's & sha's", "size": 3300},
+                  {"name": "groove", "size": 4400},
+                  {"name": "love", "size": 4000}
+                ]
+               },
+               {
+                "name": "top phrases",
+                "children": [
+                 {"name": "I can't", "size": 3380},
+                 {"name": "la la la", "size": 2490},
+                 {"name": "I wanna", "size": 2030},
+                 {"name": "I've got", "size": 1430},
+                 {"name": "I'm gonna", "size": 1400},
+                 {"name": "you're gonna", "size": 1060}
+                ]
+               }
+              ]
+             },
+
+             {
+                "name": "1960's",
+                "children": [
+                 {
+                  "name": "top topics",
+                  "children": [
+                    {"name": "la's & ooh's", "size": 2000},
+                    {"name": "needs", "size": 2900},
+                    {"name": "baby, come", "size": 4300},
+                    {"name": "instrumentals", "size": 5100},
+                    {"name": "love", "size": 5900}
+                  ]
+                 },
+                 {
+                  "name": "top phrases",
+                  "children": [
+                   {"name": "I can't", "size": 2550},
+                   {"name": "la la la", "size": 1820},
+                   {"name": "I'm gonna", "size": 1740},
+                   {"name": "I've got", "size": 1240},
+                   {"name": "yeah yeah yeah", "size": 1140}
+                  ]
+                 }
+                ]
+               },
+
+               {
+                  "name": "1950's",
+                  "children": [
+                   {
+                    "name": "top topics",
+                    "children": [
+                      {"name": "telling & knowing", "size": 450},
+                      {"name": "ooh's & ahh's", "size": 500},
+                      {"name": "baby, don't", "size": 700},
+                      {"name": "instrumentals", "size": 850},
+                      {"name": "love", "size": 1000}
+                    ]
+                   },
+                   {
+                    "name": "top phrases",
+                    "children": [
+                     {"name": "ah ah ah", "size": 1010},
+                     {"name": "na na na", "size": 820},
+                     {"name": "I'm gonna", "size": 670},
+                     {"name": "I can't", "size": 490},
+                     {"name": "I wanna", "size": 490}
+                    ]
+                   }
+                  ]
+                 }
+ ]
+}
