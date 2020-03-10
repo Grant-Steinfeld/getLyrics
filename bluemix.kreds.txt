@@ -1,8 +1,0 @@
-
-
-
-
-term(enriched_text.entities.text).[average(enriched_text.entities.sentiment.score),min(enriched_text.entities.sentiment.score),max(enriched_text.entities.sentiment.score)]
-
-api key disco
-VZfM
